@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>OCR test</title>
+
+  </head>
+  <body>
+    <div class="center">
+        <div class="form-input">
+            <label for="file-ip-1">Upload Image</label>
+            <input
+              type="file"
+              id="file-ip-1"
+              accept="image/*"
+              onchange="showPreview(event);"
+            />
+        
+            <div class="preview">
+              <img id="file-ip-1-preview" />
+            </div>
+      
+        </div>
+
+        <div>
+            <h2>Extracted text</h2>
+            <p id="extracted-text"></p>
+        </div>
+      </div> 
+   
+
+    <script src="./app.js"></script>
+  </body>
+</html>
