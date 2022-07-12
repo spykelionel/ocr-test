@@ -1,1 +1,1 @@
-[Image upload codes](https://dev.to/shantanu_jana/how-to-preview-image-before-uploading-in-javascript-1f6g)
+[Resource](https://dev.to/shantanu_jana/how-to-preview-image-before-uploading-in-javascript-1f6g)
